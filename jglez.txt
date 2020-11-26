@@ -1,2 +1,103 @@
 # Codepen file
 https://codepen.io/jorge-cs/pen/QWKWMBZ?editors=1100
+
+# Questions
+    1. What is Semantic HTML? 
+    Semantic HTML is HTML that conveys meaning such has headings, articles, sections, asides, etc. They're essentially all HTML elements that are descriptive or that describe the content inside them.
+
+    2. What is HTML used for? 
+    HTML is used for marking up the structure of a web page. In addition, it enables CSS to apply styles based on grouped elements so it is much easier and efficient. We do this by using certain elements like sections, navs, divs, spans, or the class and id attributes.
+
+    3. What is an attribute and where do we put it? 
+    Attributes are extra pieces of information about an element that are sometimes necessary such as the src and href attributes for img and anchor elements, respectively.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The heading elements are used to denote titles. They have a hierarchical structure of significance where the most important title is denoted as a h1 element and so on until h6.
+
+    5. Name two tags that have required attributes
+    <img> and <a>
+
+    6. What do we put in the head of our HTML document? 
+    Meta data about the HTML file such as the <title> of the document and any JS or CSS files we may need. (or fonts, etc)
+
+    7. What is an id? 
+    An id is an attribute which acts as a label for an element. It is meant to label a unique element for easy styling or to jump to a specific section by setting the id as the href in an anchor element. Each id can appear only once on a page.
+
+    8. What elements can I add an id to? 
+    I believe you can add an id attribute to all elements except a few meta elements such as <html>, <head>, etc
+
+    9. How many times can I use the same id on a page? 
+    Once
+
+    10. What is a class? 
+    Like id, classes are a type of attribute meant to label elements into groups for more efficient styling.
+
+    11. What elements can I add a class to? 
+    I believe it is the same situation as ids.
+
+    12. How many times can I use the same class on a page? 
+    As many times as you need, within reason. The same class value should be used to group similar elements for easier styling. 
+
+    13. How do I get my link to open in a new tab?
+    By setting the target attribute value to '_blank' in an anchor element.
+
+    14. What is the alt attribute in the image tag used for? 
+    The alt attribute is meant to be alternative text for an image in case the image href is broken or someone is using as assistive screen reader.
+
+    15. How do I reference an id?
+    With an octothorp followed by the id name.
+
+    16. What is the difference between a section and a div?
+    Section elements are semantic whereas divs are not. Sections represent cohesive pieces of content whereas divs are generic containers. 
+
+    17. What is CSS used for? 
+    CSS is used for styling web pages, setting up media queries, and creating responsive web pages. 
+
+    18. How to we select an element? Example - every h2 on the page
+    Either by using its id value, class value, or its tag. For an h2:
+
+    h2 {
+      color: red;
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    An id is meant to select a unique element. You could use ids by jumping to a specific section on the page. 
+
+    Classes are meant to group elements or label elements, for example if we wanted to create different classes for different sections of text so we could style each section only once instead of selecting them individually.
+
+    20. How do we select classes in CSS?
+    A leading period followed by the class value, e.g.
+
+    .container {
+      width: 80%;
+    }
+
+    21. How do we select a p element with a single class of “human””?
+    p.human {
+      color: red;
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
