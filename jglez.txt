@@ -78,21 +78,81 @@ https://codepen.io/jorge-cs/pen/QWKWMBZ?editors=1100
     }
 
     22. What is a parent child selector? When would this be useful? 
+    When you want to select a specific child of a parent element.
+
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar a {
+      color: red;
+    }
+
     24. What is a pseudo selector?
+    A pseudo selector is a selector for elements that are in a specific state such as :hover (on hover) or being the first, second, or third child, etc.
+
     25. What do we use the change the spacing between lines?
+      p {
+      line-height: 1.4;
+    }
+
     26. What do we use to change the spacing between letters?
+    p {
+      letter-spacing: 2px;
+    }
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    h1 {
+      /* Capitals */
+      text-transform: uppercase;
+
+      /* Lowercase */
+      text-transform: lowercase;
+
+      /* Capitalize */
+      text-transform: capitalize;
+    }
+
     28. How do I add a 1px border around my div that is dotted and black?
+    .div {
+      border: dotted black 1px;
+    }
+
     29. How do I select everything on the page? 
+    body {
+      color: red;
+    }
+
     30. How do I write a comment in CSS?
+    /* Useful comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    ls or ls -a for hidden files like .git or ls -l for long-form version
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    rm my_file - You have to be careful because there is no confirmation.
+
     34. Why should I use version control? 
+    Teams should use version control tools in order to track changes to files. If something breaks in the code, you can always revert to your last stable version.
+
     35. How often should I commit to github?
+    After every significant milestone or feature. Or within 15-20 minute increments if it's a lot of lines to make it more manageable.
+
     36. What is the command we would use to push our repo up to github? 
+    git push origin main 
+
     37. Walk me through Lambda's git flow. 
+    1 - Fork
+    2 - git clone
+    3 - cd
+    4 - git checkout -b jglez
+    5 - code .
+    6 - Add changes
+    7 - git add . (stage)
+    8 - git commit -m 'Useful comment'
+    9 - git push -u origin jglez
+    10 - PR on your forked repo
+    11 - Base repo should be forked repo - compare against jglez
 
 Stretch Questions
 
